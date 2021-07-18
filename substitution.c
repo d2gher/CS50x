@@ -88,7 +88,7 @@ int valid_key(string key)
         seen[tempKey - 'A']++;
     }
 
-    //loops through the seen array to make sure every character was once, and no more
+    //loops through the seen array to make sure every character was seen once, and no more
     for (int i = 0; i < keyLen; i++)
     {
         if (seen[i] == 1)
